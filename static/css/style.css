@@ -1,0 +1,41 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.frame{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(200, 200, 200);
+	border-bottom: 2px solid black;
+	height: 70px;
+	width: 90vw;
+}
+
+.logo{
+	/*Dont need in future*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 80%;
+	border-radius: 10px;
+	background-color: grey;
+	width: 150px;
+	min-width: 50px;
+	font-weight: bold;
+
+/*margin-left: calc(50% - 100px);*/
+}
